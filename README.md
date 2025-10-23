@@ -7,18 +7,19 @@ Nodes to enable easy selection of image/video sizes (width/height) and int/strin
 
 ### Size Selector
 
-Nine String fields in the format "width,height" outputting two INT nodes
+Ten String fields in the format "width,height" outputting two INT nodes
 
 ![image](docs/spin256-sizeselector.png)
 
 ### Int Selector
 
-Nine INT fields outputting INT node
+Ten INT fields outputting INT node
 
 ![image](docs/spin256-intselector.png)
 
 ### String Selector
 
-Nine String fields outputting INT String
+Ten String fields outputting INT String
 
 ![image](docs/spin256-stringselector.png)
+
