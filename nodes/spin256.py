@@ -37,16 +37,16 @@ class Spin256IntSelector:
         return {
             "required": {
                 "index": ("INT", {"default": 0, "min": 0, "max": 9, "step": 1}),
-                "size_0": ("INT", {"default": 0}),
-                "size_1": ("INT", {"default": 0}),
-                "size_2": ("INT", {"default": 0}),
-                "size_3": ("INT", {"default": 0}),
-                "size_4": ("INT", {"default": 0}),
-                "size_5": ("INT", {"default": 0}),
-                "size_6": ("INT", {"default": 0}),
-                "size_7": ("INT", {"default": 0}),
-                "size_8": ("INT", {"default": 0}),
-                "size_9": ("INT", {"default": 0}),
+                "int_0": ("INT", {"default": 0}),
+                "int_1": ("INT", {"default": 0}),
+                "int_2": ("INT", {"default": 0}),
+                "int_3": ("INT", {"default": 0}),
+                "int_4": ("INT", {"default": 0}),
+                "int_5": ("INT", {"default": 0}),
+                "int_6": ("INT", {"default": 0}),
+                "int_7": ("INT", {"default": 0}),
+                "int_8": ("INT", {"default": 0}),
+                "int_9": ("INT", {"default": 0}),
             }
         }
 
@@ -65,16 +65,16 @@ class Spin256StringSelector:
         return {
             "required": {
                 "index": ("INT", {"default": 0, "min": 0, "max": 9, "step": 1}),
-                "size_0": ("STRING", {"default": ""}),
-                "size_1": ("STRING", {"default": ""}),
-                "size_2": ("STRING", {"default": ""}),
-                "size_3": ("STRING", {"default": ""}),
-                "size_4": ("STRING", {"default": ""}),
-                "size_5": ("STRING", {"default": ""}),
-                "size_6": ("STRING", {"default": ""}),
-                "size_7": ("STRING", {"default": ""}),
-                "size_8": ("STRING", {"default": ""}),
-                "size_9": ("STRING", {"default": ""}),
+                "str_0": ("STRING", {"default": ""}),
+                "str_1": ("STRING", {"default": ""}),
+                "str_2": ("STRING", {"default": ""}),
+                "str_3": ("STRING", {"default": ""}),
+                "str_4": ("STRING", {"default": ""}),
+                "str_5": ("STRING", {"default": ""}),
+                "str_6": ("STRING", {"default": ""}),
+                "str_7": ("STRING", {"default": ""}),
+                "str_8": ("STRING", {"default": ""}),
+                "str_9": ("STRING", {"default": ""}),
             }
         }
 
