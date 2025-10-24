@@ -54,8 +54,8 @@ class Spin256IntSelector:
     FUNCTION = "pick"
     CATEGORY = "Spin256"
 
-    def pick(self, index, size_0, size_1, size_2, size_3, size_4, size_5, size_6, size_7, size_8, size_9):
-        sizes = [size_0, size_1, size_2, size_3, size_4, size_5, size_6, size_7, size_8, size_9]
+    def pick(self, index, int_0, int_1, int_2, int_3, int_4, int_5, int_6, int_7, int_8, int_9):
+        sizes = [int_0, int_1, int_2, int_3, int_4, int_5, int_6, int_7, int_8, int_9]
         index = max(0, min(index, len(sizes) - 1))
         return (sizes[index],)
         
@@ -82,8 +82,8 @@ class Spin256StringSelector:
     FUNCTION = "pick"
     CATEGORY = "Spin256"
 
-    def pick(self, index, size_0, size_1, size_2, size_3, size_4, size_5, size_6, size_7, size_8, size_9):
-        sizes = [size_0, size_1, size_2, size_3, size_4, size_5, size_6, size_7, size_8, size_9]
+    def pick(self, index, str_0, str_1, str_2, str_3, str_4, str_5, str_6, str_7, str_8, str_9):
+        sizes = [str_0, str_1, str_2, str_3, str_4, str_5, str_6, str_7, str_8, str_9]
         index = max(0, min(index, len(sizes) - 1))
         return (sizes[index],)
 
