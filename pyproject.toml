@@ -1,7 +1,7 @@
 [project]
 name = "spin256-comfyui"
 description = "Nodes to enable easy selection of image/video sizes (width/height) and int/string selectors"
-version = "1.0.0"
+version = "1.0.2"
 license = {file = "LICENSE"} 
 # classifiers = [
 #     # For OS-independent nodes (works on all operating systems)
@@ -28,7 +28,7 @@ Documentation = "https://github.com/Spin256/spin256-comfyui/wiki"
 "Bug Tracker" = "https://github.com/Spin256/spin256-comfyui/issues"
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "spin256"
 DisplayName = "spin256-comfyui"
 Icon = ""
 includes = [] 
